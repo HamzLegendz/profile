@@ -1,0 +1,262 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>
+      Profile Page
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap" rel="stylesheet"/>
+<style>
+  body {
+    font-family: 'Nunito', sans-serif;
+  }
+</style>
+</head><body class="bg-black text-white flex flex-col items-center justify-center min-h-screen">
+  <div class="relative w-full max-w-xl mx-auto">
+    <video autoplay loop muted class="w-full h-auto object-cover rounded-lg">
+      <source src="https://d.uguu.se/wuBkvywD.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="relative -mt-24 flex justify-center">
+    <img alt="Profile picture" class="rounded-full border-2 border-black" height="100" src="https://files.catbox.moe/5em93r.jpg" width="100"/>
+  </div>
+  
+  <div class="text-center mt-4">
+    <h1 class="text-2xl font-bold">
+      HamzDxD
+      <i class="fas fa-check-circle" style="border: 2px solid blue; border-radius: 50%; padding: 2px;"></i>
+    </h1>
+    <p class="text-gray-400">
+      إِنَّ المَكْرُوْهَ يَسْهُلُ بِالتَّمْرِيْنِ
+    </p>
+    <p class="text-gray-400">
+      Sesungguhnya sesuatu yang berat itu akan menjadi mudah kalau dikerjakan terus-menerus.
+    </p>
+  </div>
+      <div class="flex space-x-2 mt-4">
+        <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">
+          Coder
+        </span>
+        <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">
+          Game
+        </span>
+        <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">
+          Anime
+        </span>
+        <span class="px-3 py-1 bg-gray-800 rounded-full text-sm">
+          Music
+        </span>
+      </div>
+      <div class="flex space-x-4 mt-4">
+        <a class="text-pink-700" href="https://www.instagram.com/hamz.010___">
+          <i class="fab fa-instagram">
+          </i>
+        </a>
+        <a class="text-blue-500" href="https://www.github.com/HamzLegendz">
+          <i class="fab fa-github">
+          </i>
+        </a>
+        <a class="text-green-500" href="https://open.spotify.com/user/31ep4t7scar2rluyqqib6vkd3esm?si=xM-cBLeuS7mDiohtJdSOng">
+          <i class="fab fa-spotify">
+          </i>
+        </a>
+        <a class="text-blue-500" href="https://www.facebook.com/HamzLegendz">
+          <i class="fab fa-facebook">
+          </i>
+        </a>
+        <a class="text-blue-500" href="https://t.me/HamzLegendz">
+          <i class="fab fa-telegram">
+          </i>
+        </a>
+      </div>
+      <p class="text-gray-400 mt-2">
+        Contact Me
+        <a class="text-green-400 flex items-center gap-0" href="https://wa.me/66962130137" target="_blank">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+      </p>
+      <div class="w-full max-w-md mx-auto mt-4">
+        <div class="bg-black-800 p-0 m-0 rounded-lg text-center">
+          <button id="toggleButton" class="bg-red-500 text-white px-4 py-2 rounded-full text-sm font-medium transition duration-300 ease-in-out transform hover:scale-105 shadow-md" onclick="toggleProgress()">
+            Show My Progress
+          </button>
+
+          <div id="progressContainer" class="mt-4 space-y-6 hidden">
+            <div class="relative pl-6">
+              <div class="absolute left-0 top-0 w-2 h-full bg-red-500 rounded-full animate-progress"></div>
+              <div class="ml-4">
+                <p class="text-sm font-semibold text-white">April - 2022</p>
+                <p class="text-gray-300 text-sm">Mulai Menemukan Hobi Baru dengan Dunia Pemrograman</p>
+              </div>
+            </div>
+
+            <div class="relative pl-6">
+              <div class="absolute left-0 top-0 w-2 h-full bg-red-500 rounded-full animate-progress"></div>
+              <div class="ml-4">
+                <p class="text-sm font-semibold text-white">Agustus - 2022</p>
+                <p class="text-gray-300 text-sm"> Teropsesi  Untuk Mencoba Mempelajari Dasar-dasar Pemerograman Javascript</p>
+              </div>
+            </div>
+
+            <div class="relative pl-6">
+              <div class="absolute left-0 top-0 w-2 h-full bg-red-500 rounded-full animate-progress"></div>
+              <div class="ml-4">
+                <p class="text-sm font-semibold text-white">Desember - 2023</p>
+                <p class="text-gray-300 text-sm">Mencoba Mengembangkan Bot WhatsApp</p>
+              </div>
+            </div>
+
+            <div class="relative pl-6">
+              <div class="absolute left-0 top-0 w-2 h-full bg-red-500 rounded-full animate-progress"></div>
+              <div class="ml-4">
+                <p class="text-sm font-semibold text-white">Oktober - 2024</p>
+                <p class="text-gray-300 text-sm">Mencoba Mempelajari Dasar-dasar JAVA, CSS, PYTHON, PHP, dan lain-lain</p>
+              </div>
+            </div>
+
+            <div class="relative pl-6">
+              <div class="absolute left-0 top-0 w-2 h-full bg-red-500 rounded-full animate-progress"></div>
+              <div class="ml-4">
+                <p class="text-sm font-semibold text-white">Juni - 2025</p>
+                <p class="text-gray-300 text-sm">Mulai Menyadari bahwa Hanya Cinta Dan Malam</p>
+              </div>
+            </div>
+          </div>
+          <p class="text-white-400 mt-4 text-sm">Hanya Seorang Pemula Bang Jangan Di Bully:v</p>
+        </div>
+      </div>
+
+    <script>
+      let audioPlayed = false;
+      function toggleProgress() {
+        const progress = document.getElementById("progressContainer");
+        const button = document.getElementById("toggleButton");
+
+        if (progress.classList.contains("hidden")) {
+          progress.classList.remove("hidden");
+          progress.classList.add("animate-fade-in");
+          button.textContent = "Hide Progress";
+
+          if (!audioPlayed) {
+            // Memainkan audio ketika tombol diklik
+            const audio = new Audio('https://files.catbox.moe/3hav3c.mp3');
+            audio.addEventListener('ended', function() {
+              const audioBerikutnya = new Audio('https://files.catbox.moe/y1xpia.mp3');
+              audioBerikutnya.play();
+            });
+            audio.play();
+            audioPlayed = true;
+          }
+        } else {
+          progress.classList.add("animate-fade-out");
+          setTimeout(() => {
+            progress.classList.add("hidden");
+            progress.classList.remove("animate-fade-out");
+          }, 500);
+          button.textContent = "Show Progress";
+        }
+      }
+    </script>
+
+    <style>
+      @keyframes fade-in {
+        from {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+        to {
+          opacity: 2;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fade-out {
+        from {
+          opacity: 2;
+          transform: translateY(0);
+        }
+        to {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+      }
+
+      @keyframes progress-move {
+        from {
+          height: 0%;
+        }
+        to {
+          height: 100%;
+        }
+      }
+
+      .animate-fade-in {
+        animation: fade-in 1.0s ease-out;
+      }
+
+      .animate-fade-out {
+        animation: fade-out 1.0s ease-out;
+      }
+
+      .animate-progress {
+        animation: progress-move 3.0s ease-out;
+      }
+    </style>
+    <style>/* Glow Effect untuk Tombol Show Progress */
+#toggleButton {
+  position: relative;
+  background: linear-gradient(45deg, #ff0000, #ff7300);
+  border: none;
+  box-shadow: 0 0 10px #ff0000, 0 0 10px #ff7300;
+  animation: neon-button-glow 5.0s infinite alternate, float 5s ease-in-out infinite;
+}
+
+@keyframes neon-button-glow {
+  from {
+    box-shadow: 0 0 10px #ff0000, 0 0 20px #ff7300;
+  }
+  to {
+    box-shadow: 0 0 15px #ff0000, 0 0 20px #ff7300, 0 0 40px #ff7300;
+  }
+}
+
+/* Floating Effect untuk Tombol */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Glow Effect pada Thumbnail Video */
+video {
+  border-radius: 10px;
+  box-shadow: 0 0 20px #hsl(0,hsl(0,0%,6.4%)%,57.5%), 0 0 30px #hsl(0,0%,6.4%)(0,100%,57.5%);
+  transition: box-shadow 0.3s ease-in-out;
+}
+video:hover {
+  box-shadow: 0 0 30px #hsl(0,0%,6.4%), 0 0 50px #hsl(0,0%,6.4%);
+}
+
+
+span {
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+span:hover {
+  background: #ffcc00;
+  color: black;
+  transform: scale(1.1);
+}
+
+/* Animasi Hover Smooth untuk Ikon Sosial Media */
+a i {
+  transition: transform 0.3s ease-in-out;
+}
+a:hover i {
+  transform: scale(1.2);
+}</style>
+  </body>
+  </html>
