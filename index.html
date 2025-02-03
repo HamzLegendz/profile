@@ -3,7 +3,7 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>
-      HanzDxd My Profile
+      HamzDxD My Profile
     </title>
     <script src="https://cdn.tailwindcss.com">
     </script>
@@ -143,10 +143,10 @@
           button.textContent = "Hide Progress";
 
           if (!audioPlayed) {
-            // Memainkan audio ketika tombol diklik
+            
             const audio = new Audio('https://files.catbox.moe/3hav3c.mp3');
             audio.addEventListener('ended', function() {
-              const audioBerikutnya = new Audio('https://files.catbox.moe/y1xpia.mp3');
+              const audioBerikutnya = new Audio('https://files.catbox.moe/6pvu70.mp3');
               audioBerikutnya.play();
             });
             audio.play();
@@ -207,7 +207,7 @@
         animation: progress-move 3.0s ease-out;
       }
     </style>
-    <style>/* Glow Effect untuk Tombol Show Progress */
+    <style>
 #toggleButton {
   position: relative;
   background: linear-gradient(45deg, #ff0000, #ff7300);
@@ -225,14 +225,14 @@
   }
 }
 
-/* Floating Effect untuk Tombol */
+
 @keyframes float {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-5px); }
   100% { transform: translateY(0px); }
 }
 
-/* Glow Effect pada Thumbnail Video */
+
 video {
   border-radius: 10px;
   box-shadow: 0 0 20px #hsl(0,hsl(0,0%,6.4%)%,57.5%), 0 0 30px #hsl(0,0%,6.4%)(0,100%,57.5%);
@@ -252,7 +252,7 @@ span:hover {
   transform: scale(1.1);
 }
 
-/* Animasi Hover Smooth untuk Ikon Sosial Media */
+
 a i {
   transition: transform 0.3s ease-in-out;
 }
